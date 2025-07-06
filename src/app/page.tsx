@@ -79,8 +79,8 @@ const YearMarker = ({ year }: { year: string }) => (
 const TimelineEventCard = ({ event, isRightSide }: { event: TimelineEvent, isRightSide: boolean }) => {
   const Icon = event.type === 'work' ? Briefcase : Code;
   return (
-    <div className={`relative pl-12 md:pl-0 ${!isRightSide ? 'md:pr-[calc(50%_+_1.5rem)]' : 'md:pl-[calc(50%_+_1.5rem)]'}`}>
-      <Card className="shadow-md hover:shadow-xl transition-shadow duration-300">
+    <div className={`relative ${!isRightSide ? 'md:pr-[calc(50%_+_1.5rem)]' : 'md:pl-[calc(50%_+_1.5rem)]'}`}>
+      <Card className="ml-12 md:ml-0 shadow-md hover:shadow-xl transition-shadow duration-300">
         <CardHeader>
           <div className="flex items-center gap-4">
             <Icon className="w-6 h-6 text-primary" />
