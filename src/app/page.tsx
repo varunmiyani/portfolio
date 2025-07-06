@@ -117,12 +117,12 @@ export default function Home() {
         <section id="home" className="py-24 md:py-32 text-center">
           <div className="flex flex-col items-center">
              <Image
-              src="https://placehold.co/128x128.png"
+              src="https://firebasestorage.googleapis.com/v0/b/app-hosting-project-2a3c7.appspot.com/o/1d95f0ce-1c9f-442e-9d29-c05353d71954.jpeg?alt=media&token=e93ce71d-5b8d-4c3e-8367-158a531b4197"
               alt="Varun Miyani"
               width={128}
               height={128}
               className="rounded-full mb-6 ring-4 ring-primary/20"
-              data-ai-hint="professional headshot"
+              data-ai-hint="man office"
             />
             <h1 className="font-headline text-4xl md:text-6xl font-bold tracking-tight">Varun Miyani</h1>
             <h2 className="mt-2 text-lg md:text-xl text-muted-foreground">Creative Frontend Engineer & Design Enthusiast</h2>
