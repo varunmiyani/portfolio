@@ -3,7 +3,7 @@ import { ArrowRight, Briefcase, Code, Copy, Download, Github, Linkedin, Loader2,
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { ResumeSummaryGenerator } from '@/components/resume-summary-generator';
+import { ContactForm } from '@/components/resume-summary-generator';
 
 type TimelineEvent = {
   year: string;
@@ -172,13 +172,13 @@ export default function Home() {
           </div>
         </section>
 
-        {/* AI Summary Generator Section */}
+        {/* Contact Section */}
         <section id="contact" className="py-16 md:py-24">
-           <h2 className="font-headline text-3xl md:text-4xl font-bold text-center mb-4">Tailor Your Introduction</h2>
+           <h2 className="font-headline text-3xl md:text-4xl font-bold text-center mb-4">Get In Touch</h2>
             <p className="max-w-3xl mx-auto text-center text-muted-foreground mb-12">
-              Applying for a job? Use my AI-powered tool to generate a personalized resume summary tailored to the job description. Just paste the details below.
+              Have a project in mind or just want to say hi? I'd love to hear from you. Fill out the form below and I'll get back to you as soon as possible.
             </p>
-          <ResumeSummaryGenerator />
+          <ContactForm />
         </section>
 
       </main>
