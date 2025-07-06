@@ -15,45 +15,61 @@ type TimelineEvent = {
 };
 
 const timelineEvents: TimelineEvent[] = [
-  {
-    year: '2023',
+   {
+    year: '2023', // Jul 2023 – Present
     type: 'work',
-    title: 'Senior Frontend Engineer',
-    entity: 'Innovate Solutions',
-    description: 'Led the development of a design system and component library, improving development velocity by 30%. Architected and built a new customer-facing analytics dashboard using Next.js, resulting in a 25% increase in user engagement.',
-    tags: ['Next.js', 'TypeScript', 'React', 'Tailwind CSS', 'Storybook'],
+    title: 'Senior Software Engineer',
+    entity: 'o9 Solutions Supply Chain',
+    description: 'Currently working on React.js, jQuery, KendoUI in frontend and Node.js (Express, Sails) in backend for creating REST API’s. Responsibilities include Kendo UI migration, developing reusable components, and delivering features with accessibility and unit tests. Worked on o9 Platform using jQuery, Kendo UI, Karma, C# .net MVC.',
+    tags: ['React.js', 'jQuery', 'Kendo UI', 'Node.js', 'Express', 'Sails', 'REST API', 'Karma', 'C# .net MVC'],
   },
   {
-    year: '2022',
-    type: 'project',
-    title: 'Project Chronos',
-    entity: 'Personal Project',
-    description: 'An interactive timeline component for React, designed for easy integration and customization. Published as an open-source package on npm, gaining over 5,000 weekly downloads.',
-    tags: ['React', 'TypeScript', 'Framer Motion', 'NPM'],
-  },
-  {
-    year: '2021',
+    year: '2021', // Sep 2021 – June 2023
     type: 'work',
-    title: 'Frontend Developer',
-    entity: 'Creative Co.',
-    description: 'Developed and maintained responsive user interfaces for e-commerce clients. Collaborated with UI/UX designers to translate wireframes into high-quality, pixel-perfect code.',
-    tags: ['Vue.js', 'GraphQL', 'SCSS', 'Jest'],
+    title: 'Senior Software Engineer (Frontend Lead)',
+    entity: 'Namaste Credit Financial Products and Services',
+    description: 'Led the frontend team, designed and delivered solutions, wrote technical specifications for every PRD, managed Git repository and JIRA tasks, developed secure and reusable React components, handled frontend and backend deployments (AWS), and provided post-release and production support. Delivered projects include City Union Bank (digital onboarding and loan sanction), NC Onboarding (digital onboarding for borrowers), and Loan Hub (Marketplace connecting borrowers and lenders).',
+    tags: ['React.js', 'Node.js', 'Sails.js', 'MySQL', 'Git', 'JIRA', 'AWS', 'Frontend Lead'],
   },
-  {
-    year: '2020',
-    type: 'project',
-    title: 'Data Visualizer',
-    entity: 'University Capstone',
-    description: 'A web application that creates beautiful, interactive charts and graphs from CSV data. Utilized D3.js for complex data visualization and provided users with multiple chart types.',
-    tags: ['D3.js', 'JavaScript', 'HTML5 Canvas', 'Node.js'],
-  },
-  {
-    year: '2019',
+   {
+    year: '2017', // Feb 2017 – Aug 2021
     type: 'work',
     title: 'Junior Web Developer Intern',
     entity: 'Digital Agency',
     description: 'Assisted the development team in building and maintaining client websites. Gained hands-on experience with HTML, CSS, JavaScript, and version control systems like Git.',
     tags: ['HTML', 'CSS', 'jQuery', 'Git'],
+  },
+  {
+    year: '2017', // Feb 2017 – Aug 2021
+    type: 'work',
+    title: 'Full Stack Developer (Team Lead)',
+    entity: 'SPINTeQ Automotive Products',
+    description: 'Gathered requirements, acted as System Architect, led the dev team, created REST APIs, did UI-UX design, frontend and backend development, and mobility development. Managed Git, monitored progress, automated support activities (sms, email, telegram alerts, database backup), and managed Azure VMs. Maintained web & mobile applications for TMSA CV, PV and KYC, and TATA MOTORS PRODUCTS.',
+    tags: ['HTML', 'CSS', 'JavaScript', 'React.js', 'Node.js', 'Express.js', 'PHP', 'CodeIgniter', 'PostgreSQL', 'MS SQL Server', 'Azure', 'Git', 'Team Lead'],
+  },
+   {
+    year: '2017', // Feb 2017 – Aug 2021
+    type: 'project',
+    title: 'Auto Scheduler',
+    entity: 'SPINTeQ Automotive Products',
+    description: 'Auto schedule vehicle based on priority and availability of resources in workshop.',
+    tags: ['HTML', 'CSS', 'JavaScript', 'React.js', 'Node.js', 'Express.js', 'PostgreSQL'],
+  },
+   {
+    year: '2017', // Feb 2017 – Aug 2021
+    type: 'project',
+    title: 'FX',
+    entity: 'SPINTeQ Automotive Products',
+    description: 'Workshop Management System, Asset Tracking, Analytics, Dashboards, Reports.',
+    tags: ['HTML', 'CSS', 'JavaScript', 'HighCharts.js', 'React.js', 'Node.js', 'Express.js', 'PHP', 'CodeIgniter', 'PostgreSQL'],
+  },
+   {
+    year: '2017', // Feb 2017 – Aug 2021
+    type: 'project',
+    title: 'Insight, Revenue, KPI, Telegram',
+    entity: 'SPINTeQ Automotive Products',
+    description: 'Admin Dashboard, Workshop Revenue Dashboard, Monitoring Dealer and Region Performance, Auto Sending Workshop Status & KPI messages.',
+    tags: ['HTML', 'CSS', 'JavaScript', 'HighCharts.js', 'Google Charts', 'Materialize', 'PHP', 'CodeIgniter', 'MS SQL Server', 'Windows Task Scheduler'],
   },
 ];
 
@@ -110,15 +126,15 @@ export default function Home() {
           <div className="flex flex-col items-center">
              <Image
               src="https://placehold.co/128x128.png"
-              alt="Alex Doe"
+              alt="Varun Miyani"
               width={128}
               height={128}
               className="rounded-full mb-6 ring-4 ring-primary/20"
               data-ai-hint="professional headshot"
             />
-            <h1 className="font-headline text-4xl md:text-6xl font-bold tracking-tight">Alex Doe</h1>
+            <h1 className="font-headline text-4xl md:text-6xl font-bold tracking-tight">Varun Miyani</h1>
             <h2 className="mt-2 text-lg md:text-xl text-muted-foreground">Creative Frontend Engineer & Design Enthusiast</h2>
-            <p className="mt-4 max-w-2xl text-center text-muted-foreground">
+            <p className="mt-4 max-w-2xl text-center text-muted-foreground" data-ai-hint="update this with your personal summary">
               I craft beautiful, responsive, and user-centric web experiences. My passion lies in the intersection of clean code and thoughtful design.
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-4">
@@ -128,7 +144,7 @@ export default function Home() {
                 </a>
               </Button>
               <Button asChild variant="outline" size="lg">
-                <a href="/alex-doe-resume.pdf" download>
+                <a href="/varun-miyani-resume.pdf" download data-ai-hint="Update this href to link to your actual resume file">
                   <Download className="mr-2" /> Download CV
                 </a>
               </Button>
@@ -176,7 +192,7 @@ export default function Home() {
       </main>
       <footer className="py-8 border-t">
         <div className="container mx-auto px-4 text-center text-muted-foreground text-sm">
-          <p>&copy; {new Date().getFullYear()} Alex Doe. Built with Next.js and Tailwind CSS.</p>
+          <p>&copy; {new Date().getFullYear()} Varun Miyani. Built with Next.js and Tailwind CSS.</p>
         </div>
       </footer>
     </div>
