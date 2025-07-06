@@ -31,14 +31,6 @@ const timelineEvents: TimelineEvent[] = [
     description: 'Led the frontend team, designed and delivered solutions, wrote technical specifications for every PRD, managed Git repository and JIRA tasks, developed secure and reusable React components, handled frontend and backend deployments (AWS), and provided post-release and production support. Delivered projects include City Union Bank (digital onboarding and loan sanction), NC Onboarding (digital onboarding for borrowers), and Loan Hub (Marketplace connecting borrowers and lenders).',
     tags: ['React.js', 'Node.js', 'Sails.js', 'MySQL', 'Git', 'JIRA', 'AWS', 'Frontend Lead'],
   },
-   {
-    year: '2017', // Feb 2017 – Aug 2021
-    type: 'work',
-    title: 'Junior Web Developer Intern',
-    entity: 'Digital Agency',
-    description: 'Assisted the development team in building and maintaining client websites. Gained hands-on experience with HTML, CSS, JavaScript, and version control systems like Git.',
-    tags: ['HTML', 'CSS', 'jQuery', 'Git'],
-  },
   {
     year: '2017', // Feb 2017 – Aug 2021
     type: 'work',
