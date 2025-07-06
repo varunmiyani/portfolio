@@ -255,14 +255,18 @@ export default function Home() {
               </Button>
             </div>
             <div className="mt-8 flex justify-center gap-6">
-              <a
-                href="#"
+ <a
+                href="https://github.com/varunmiyani"
+ target="_blank"
+ rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
                 <Github className="h-6 w-6" />
               </a>
-              <a
-                href="#"
+ <a
+                href="https://www.linkedin.com/in/varunmiyani/"
+ target="_blank"
+ rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
                 <Linkedin className="h-6 w-6" />
@@ -299,6 +303,60 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* Certificates Section */}
+        <section id="certificates" className="py-16 md:py-24">
+ <h2 className="font-headline text-3xl md:text-4xl font-bold text-center mb-12">
+ Certificates & Achievements
+ </h2>
+ {/* Placeholder for certificates */}
+ <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+ {/* Example Certificate Item (Repeat this for each certificate) */}
+ <div className="bg-card p-6 rounded-lg shadow-md">
+ <h3 className="font-semibold text-lg mb-2">JavaScript - The Complete Guide 2020 (Beginner + Advanced)</h3>
+ <p className="text-muted-foreground text-sm mb-4">Udemy</p>
+ </div>
+ <div className="bg-card p-6 rounded-lg shadow-md">
+ <h3 className="font-semibold text-lg mb-2">React - The Complete Guide (Incl Hooks, React Router, Redux)</h3>
+ <p className="text-muted-foreground text-sm mb-4">Udemy</p>
+ </div>
+ <div className="bg-card p-6 rounded-lg shadow-md">
+ <h3 className="font-semibold text-lg mb-2">1st place in Web Designing event</h3>
+ <p className="text-muted-foreground text-sm mb-4">JNNC, Shimoga</p>
+ </div>
+ <div className="bg-card p-6 rounded-lg shadow-md">
+ <h3 className="font-semibold text-lg mb-2">1st place in Web Designing event</h3>
+ <p className="text-muted-foreground text-sm mb-4">Maharaja institute of Technology, Mysore</p>
+ </div>
+ <div className="bg-card p-6 rounded-lg shadow-md">
+ <h3 className="font-semibold text-lg mb-2">2nd place in Web Designing event</h3>
+ <p className="text-muted-foreground text-sm mb-4">Manipal Institute of Technology, Manipal</p>
+ </div>
+ <div className="bg-card p-6 rounded-lg shadow-md">
+ <h3 className="font-semibold text-lg mb-2">2nd place in Web Designing event</h3>
+ <p className="text-muted-foreground text-sm mb-4">NMAM Institute of Technology, Nitte</p>
+ </div>
+ <div className="bg-card p-6 rounded-lg shadow-md">
+ <h3 className="font-semibold text-lg mb-2">2nd place in Code Hunt event</h3>
+ <p className="text-muted-foreground text-sm mb-4">Manipal Institute of Technology, Manipal</p>
+ </div>
+ <div className="bg-card p-6 rounded-lg shadow-md">
+ <h3 className="font-semibold text-lg mb-2">1st place in Gaming event</h3>
+ <p className="text-muted-foreground text-sm mb-4">AIMIT, Beeri</p>
+ </div>
+ <div className="bg-card p-6 rounded-lg shadow-md">
+ <h3 className="font-semibold text-lg mb-2">1st place in Gaming event</h3>
+ <p className="text-muted-foreground text-sm mb-4">NMAM Institute of Technology, Nitte</p>
+ </div>
+ <div className="bg-card p-6 rounded-lg shadow-md">
+ <h3 className="font-semibold text-lg mb-2">2nd place in Gaming event</h3>
+ <p className="text-muted-foreground text-sm mb-4">Mangalore University, Mangalagangothri</p>
+ </div>
+ </div>
+ </section>
+
+
+
 
         {/* Contact Section */}
         <section id="contact" className="py-16 md:py-24">
